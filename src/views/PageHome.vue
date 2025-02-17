@@ -17,7 +17,7 @@ const contactTelegram = ref<string>('')
 const contactWhatsApp = ref<string>('')
 const contactPhone = ref<string>('')
 
-const test1;
+const test2;
 
 const loading = ref<boolean>(false)
 
