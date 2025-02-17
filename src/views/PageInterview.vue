@@ -12,7 +12,7 @@ const route = useRoute()
 const isLoading = ref<boolean>(true)
 const interview = ref<IInterview>()
 
-const testVar = 'qweewq'
+const testVar = 'Artem'
 console.log(testVar)
 
 const docref = doc(db, `users/${userStore.userId}/interviews`, route.params.id as string)
