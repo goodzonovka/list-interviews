@@ -12,6 +12,9 @@ const route = useRoute()
 const isLoading = ref<boolean>(true)
 const interview = ref<IInterview>()
 
+const testVar = 'qweewq'
+console.log(testVar)
+
 const docref = doc(db, `users/${userStore.userId}/interviews`, route.params.id as string)
 
 const getData = async (): Promise<void> => {
