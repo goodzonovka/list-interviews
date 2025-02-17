@@ -17,6 +17,8 @@ const contactTelegram = ref<string>('')
 const contactWhatsApp = ref<string>('')
 const contactPhone = ref<string>('')
 
+const test1;
+
 const loading = ref<boolean>(false)
 
 const addNewInterview = async (): Promise<void> => {
