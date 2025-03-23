@@ -17,7 +17,6 @@ export default defineConfig({
         host: process.env.HOST || '127.0.0.1',
         port: process.env.PORT ? Number(process.env.PORT) : 3000,
         strictPort: true,
-        allowedHosts: ['interviews.goodzonovka.com'],
     },
     preview: {
         host: '127.0.0.1', // Обязательно указываем хост
