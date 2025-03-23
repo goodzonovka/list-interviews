@@ -20,6 +20,7 @@ jobs:
       - run: npm ci
       - run: npm run build
 
+
       # Деплой через rsync
       - run: rsync -e "ssh -p 22 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . fg573435@fg573435.ftp.tools:/home/fg573435/goodzonovka.com/interviews
 
