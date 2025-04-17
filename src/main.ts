@@ -1,7 +1,7 @@
 import './assets/main.css'
 import 'primeicons/primeicons.css'
 import '/node_modules/primeflex/primeflex.css'
-import '/node_modules/primeflex/themes/primeone-light.css'
+import '/node_modules/primeflex/themes/primeone-dark.css'
 
 import { initializeApp } from "firebase/app";
 
